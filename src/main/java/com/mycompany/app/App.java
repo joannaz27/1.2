@@ -1,12 +1,12 @@
-/*----------------------------------------------------------------------------------------
- * Copyright (c) Microsoft Corporation. All rights reserved.
- * Licensed under the MIT License. See LICENSE in the project root for license information.
- *---------------------------------------------------------------------------------------*/
-
-package com.mycompany.app;
-
-public class App {
+public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello Remote World!");
+        int a = 2;
+        double b = 2.6;
+        b = b - 2;
+        boolean t = true;    
+        System.out.println(a + b);
+        System.out.println(t);
+        System.out.println(b);
+   
     }
 }
